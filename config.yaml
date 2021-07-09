@@ -1,0 +1,16 @@
+azure:
+  key_vault:
+    account_url: "https://xxxxxxx.vault.azure.net/"
+  acr:
+    server: "xxxxxxx.azurecr.io"
+    user_name: "xxxxxxx"
+    kv_secret_key: "xxxxxxx"
+  batch:
+    account_url: "https://xxxxxxx.region.batch.azure.com"
+  vnet-azure-batch
+    subnet-id: "/subscriptions/xxxxxxx/resourceGroups/xxxxxxx/providers/Microsoft.Network/virtualNetworks/xxxxxxx/subnets/xxxxxxx"
+  batch_sp:
+    client_id: "xxxxxxx"
+    tenant_id: "xxxxxxx"
+    resource: "https://batch.core.windows.net/"
+    kv_secret_key: "xxxxxxx"

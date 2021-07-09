@@ -1,0 +1,4 @@
+azure-batch
+azure-identity
+azure-keyvault
+pyyaml
